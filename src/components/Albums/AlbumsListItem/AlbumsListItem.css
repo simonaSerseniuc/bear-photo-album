@@ -1,0 +1,37 @@
+.AlbumsListItem {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.AlbumsListItem:nth-child(2n+1) {
+    background-color: lightyellow;
+}
+
+.AlbumsListItem:hover {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.AlbumsListItem a:link {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+.AlbumsListItem a:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.AlbumsListItem a:visited {
+    text-decoration: none;
+    color: midnightblue;
+}
+
+.AlbumsListItem a:visited:hover {
+    color: cornflowerblue;
+}
+
+.AlbumsListItem a:active {
+    color: midnightblue;
+    text-decoration: underline;
+}
